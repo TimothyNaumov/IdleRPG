@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class InventoryController : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class InventoryController : MonoBehaviour
     public List<SlotClass> items = new List<SlotClass>();
 
     private GameObject[] slots;
+
+    public event Action OnStartFinished;
 
     private void Awake()
     {
@@ -27,6 +30,8 @@ public class InventoryController : MonoBehaviour
             slots[i] = slotHolder.transform.GetChild(i).gameObject;
         }
         RefreshUI();
+        Debug.Log("Invoking the on start finished!");
+        OnStartFinished?.Invoke();
     }
 
     public void RefreshUI()
