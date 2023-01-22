@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cherry
   itemIcon: {fileID: 8164760413208042087, guid: 33cb3360632adca46b58d51941cd3056, type: 3}
+  itemPrice: 45
   isStackable: 0
   healthAdded: 0

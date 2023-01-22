@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Lime
   itemIcon: {fileID: 4047038636845738947, guid: 33cb3360632adca46b58d51941cd3056, type: 3}
+  itemPrice: 5
   isStackable: 1
   healthAdded: 0

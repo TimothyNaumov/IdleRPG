@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Avocado
   itemIcon: {fileID: 9143790869916872227, guid: 33cb3360632adca46b58d51941cd3056, type: 3}
+  itemPrice: 25
   isStackable: 1
   healthAdded: 25

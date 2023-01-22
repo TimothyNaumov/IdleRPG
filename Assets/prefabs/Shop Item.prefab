@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3180661581301996255}
   - component: {fileID: 6498979621220500569}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 6255993271819075729}
   - component: {fileID: 7200615050493234119}
   - component: {fileID: 3492508820021312211}
+  - component: {fileID: 4291534215920811399}
   m_Layer: 0
   m_Name: Shop Item
   m_TagString: Untagged
@@ -157,6 +158,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4291534215920811399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4864332011445426997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ed0ec3c7635a3458975d97a32ea3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4890731234498266055
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +257,7 @@ GameObject:
   - component: {fileID: 4658475649254826708}
   - component: {fileID: 4363826152663984932}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
