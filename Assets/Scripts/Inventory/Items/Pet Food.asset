@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005845a9b07d3db42a959d9da7c47a65, type: 3}
+  m_Name: Pet Food
+  m_EditorClassIdentifier: 
+  itemName: Pet Food
+  itemIcon: {fileID: 21300000, guid: 4465cefd7b8557a40a6b6ed6b13db32a, type: 3}
+  healthAdded: 100
